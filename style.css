@@ -147,3 +147,21 @@ body {
   width: 65%;
   background-color: white;
 }
+.education {
+  background-color: #e6e6e6;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.education-list-title {
+    
+    font-weight: 700;
+}
