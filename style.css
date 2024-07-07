@@ -122,19 +122,27 @@ body {
   text-transform: uppercase;
 }
 .contacts-title {
-    color: rgb(65, 65, 65);
+  color: rgb(65, 65, 65);
 }
 .skills {
-    display: flex;
-    gap: 20px;
-    color: #e6e6e6;
+  display: flex;
+  gap: 20px;
+  color: #e6e6e6;
 }
 .line {
-    width: 20px;
-    background-color: #e6e6e6;
+  width: 20px;
+  background-color: #e6e6e6;
 }
-
-
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  line-height: 1.4;
+}
+.skills-block {
+  margin-top: 10px;
+  font-size: 16px;
+}
 .main_right {
   width: 65%;
   background-color: white;
